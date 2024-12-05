@@ -5,7 +5,8 @@ import os
 import requests
 #import fruitmodel
 #pip install uvicorn
-#uvicorn server.main:app
+#uvicorn server.main:app --reload
+#uvicorn server.main:app --reload --port 8001
 #pip install python-multipart
 from models.fruit_model import FruitModel
 
